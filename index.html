@@ -1,0 +1,168 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Happy Anniversary Bellaa</title>
+    <link rel="stylesheet"href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="adwaitlogo.jpg" type="image/jpg">
+ </head>
+
+ <body>
+    <!-- Floating Background Particles-->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Happy Anniversary, Bellaa!💕</h1>
+            <p class="subtitle fade-in">meeting u was the best thing in my life, and i choosing to love u was the best decision i've ever made. thank u for choosing me as well!</p>
+            <div class="floating-hearts">
+                <div class="heart">💖</div>
+                <div class="heart">💝 </div>
+                <div class="heart">🩷</div>
+                <div class="heart">💗</div>
+                <div class="heart">💞</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                klik disini yaa!!
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">I Always Love u, Bella</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="foto project/fotopro1.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Glad To Know u sayang</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="foto project/fotopro2.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Your smile lights up my world</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="foto project/fotopro3.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Prettiest Girl i've ever seen</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="foto project/S__350724107.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">U Are The Best Part Of My Life</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="foto project/S__350724108.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Most Wonderful Person</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="foto project/S__350724109.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Im Here For u</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section --><!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for u</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text"></p>
+                        On this special day, I want u to know how grateful i am to have u in my life.
+                        Your smile fills my days with joy, your love gives me strength, and your presence
+                        makes everything better. U are not just my girlfriend, you are my best friend,
+                        my partner in every way, and the love of my Life
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Today, we celebrate our Anniversary, thank you for all your kindness. u are 
+                        always be the best and the greatest, I am proud of u. I hope in the future we will
+                        always be fine and all your dreams come true.
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Happy Anniversary Bella!! Semoga tahun tahun berikutnya jauh lebih baik dari tahun
+                        ini... Amiinn
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">🤍</span>
+                    <span class="heart-animation">🩷</span>
+                    <span class="heart-animation">❤️</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; from Rafa, for the most amazing person in the world</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
